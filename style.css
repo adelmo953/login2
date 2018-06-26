@@ -1,0 +1,96 @@
+/*   General sitting to the page */
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+}
+body {
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(189, 206, 209, 0.911);
+}
+
+
+/* under div of form div*/
+.subdiv {
+    width:400px;
+    height:550px;
+    margin:auto;
+    position: fixed;
+    top:100px;
+    bottom:100px;
+    left:0px;
+    right:0px;
+    transform:translate(20px,20px);
+    background-color: rgb(0, 217, 255);
+    opacity:0.5;
+}
+
+/*main div have a form*/
+.maindiv {
+    width:400px;
+    height:550px;
+    margin:auto;
+    position: fixed;
+    top:100px;
+    bottom:100px;
+    left:0px;
+    right:0px;
+    background-color:#0778e9;
+    box-shadow:2px 2px 5px #8ea2b6;
+}
+/* head of div form have heading log in */
+.headlog {
+    width:100%;
+    height:100px;
+    background-color:#4c97e2;
+}
+h1 {
+    padding:25px;
+    color:white;
+}
+
+/* main form to log in */
+input {
+    display:block;
+    padding:16px;
+    width:350px;
+    margin:20px;
+    border:2px solid #fff;
+    background-color:#d2d9e0;
+    color:black;
+    font-weight: bold;
+    font-size:16px;
+}
+
+/* spacial setting to submit button  and chexkbox*/
+#oklog {
+    color:white;
+    background-color:green;
+    font-weight: bold;
+}
+span {
+    color:white;
+    font-weight:bold;
+}
+
+
+/*general setting to the footer of form*/
+
+.footerlog {
+    background-color:#4c97e2;
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    height:100px;
+    text-align:left;
+    padding-top:25px;
+}
+p, a {
+    font-weight: bold;
+    display:inline;
+    color:white;
+    text-decoration: none;
+}
